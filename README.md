@@ -299,45 +299,9 @@ ametie/
 └── README.md
 ```
 
-## Security Considerations
-
-- API keys are stored encrypted in OS keychain/credential store
-- All requests are signed with HMAC-SHA256
-- Request bodies are encrypted with XOR using derived keys
-- Failed authentication attempts return 404 to obscure detection
-- Timestamp validation prevents replay attacks
-- Header rotation reduces traffic fingerprinting
-
-## Troubleshooting
-
-### Service Not Starting
-
-- Check logs: `ametie service logs`
-- Verify configuration: `ametie status`
-- Ensure API key and server URL are correct
-
-### Connection Issues
-
-- Verify server URL is accessible
-- Check firewall rules
-- Review network transport logs
-- Try different ports or protocols
-
-### Command Execution Fails
-
-- Check mailbox for error output: `ametie mailbox check`
-- Verify node is online: `ametie list nodes`
-- Review command syntax and permissions
 
 ## License
 
-[Specify your license here]
+Uhhh IDK
 
-## Contributing
-
-[Contributing guidelines]
-
-## Support
-
-[Support information]
 
